@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Clock</title>
+</head>
+<body>
+    <div class="btn-box">
+        <b href="#">Pranto's</b>
+        <b href="#">Clock</b>
+       <!-- <button class="butoon">
+            <span class="Start">    </span>
+            <span class="loading"><i class="refresh"></i></span>
+     <span class="check"><i class=" check"></i></span>
+        </button> -->
+    <second class="clock">
+        <div class="seconds" style="--dRotate: 89deg;">
+            <i class="spike" data-i="0" style="--rotate: 0deg;"></i>
+            <i class="spike" data-i="1" style="--rotate: 6deg;"></i>
+            <i class="spike" data-i="2" style="--rotate: 12deg;"></i>
+            <i class="spike" data-i="3" style="--rotate: 18deg;"></i>
+            <i class="spike" data-i="4" style="--rotate: 24deg;"></i>
+            <i class="spike" data-i="5" style="--rotate: 30deg;"></i>
+            <i class="spike" data-i="6" style="--rotate: 36deg;"></i>
+            <i class="spike" data-i="7" style="--rotate: 42deg;"></i>
+            <i class="spike" data-i="8" style="--rotate: 48deg;"></i>
+            <i class="spike" data-i="9" style="--rotate: 54deg;"></i>
+            <i class="spike" data-i="10" style="--rotate: 60deg;"></i>
+            <i class="spike" data-i="11" style="--rotate: 66deg;"></i>
+            <i class="spike" data-i="12" style="--rotate: 72deg;"></i>
+            <i class="spike" data-i="13" style="--rotate: 78deg;"></i>
+            <i class="spike" data-i="14" style="--rotate: 84deg;"></i>
+            <i class="spike" data-i="15" style="--rotate: 90deg;"></i>
+            <i class="spike" data-i="16" style="--rotate: 96deg;"></i>
+            <i class="spike" data-i="17" style="--rotate: 102deg;"></i>
+            <i class="spike" data-i="18" style="--rotate: 108deg;"></i>
+            <i class="spike" data-i="19" style="--rotate: 114deg;"></i>
+            <i class="spike" data-i="20" style="--rotate: 120deg;"></i>
+            <i class="spike" data-i="21" style="--rotate: 126deg;"></i>
+            <i class="spike" data-i="22" style="--rotate: 132deg;"></i>
+            <i class="spike" data-i="23" style="--rotate: 138deg;"></i>
+            <i class="spike" data-i="24" style="--rotate: 144deg;"></i>
+            <i class="spike" data-i="25" style="--rotate: 150deg;"></i>
+            <i class="spike" data-i="26" style="--rotate: 156deg;"></i>
+            <i class="spike" data-i="27" style="--rotate: 162deg;"></i>
+            <i class="spike" data-i="28" style="--rotate: 168deg;"></i>
+            <i class="spike" data-i="29" style="--rotate: 174deg;"></i>
+            <i class="spike" data-i="30" style="--rotate: 180deg;"></i>
+            <i class="spike" data-i="31" style="--rotate: 186deg;"></i>
+            <i class="spike" data-i="32" style="--rotate: 192deg;"></i>
+            <i class="spike" data-i="33" style="--rotate: 198deg;"></i>
+            <i class="spike" data-i="34" style="--rotate: 204deg;"></i>
+            <i class="spike" data-i="35" style="--rotate: 210deg;"></i>
+            <i class="spike" data-i="36" style="--rotate: 216deg;"></i>
+            <i class="spike" data-i="37" style="--rotate: 222deg;"></i>
+            <i class="spike" data-i="38" style="--rotate: 228deg;"></i>
+            <i class="spike" data-i="39" style="--rotate: 234deg;"></i>
+            <i class="spike" data-i="40" style="--rotate: 240deg;"></i>
+            <i class="spike" data-i="41" style="--rotate: 246deg;"></i>
+            <i class="spike" data-i="42" style="--rotate: 252deg;"></i>
+            <i class="spike" data-i="43" style="--rotate: 258deg;"></i>
+            <i class="spike" data-i="44" style="--rotate: 264deg;"></i>
+            <i class="spike" data-i="45" style="--rotate: 270deg;"></i>
+            <i class="spike" data-i="46" style="--rotate: 276deg;"></i>
+            <i class="spike" data-i="47" style="--rotate: 282deg;"></i>
+            <i class="spike" data-i="48" style="--rotate: 288deg;"></i>
+            <i class="spike" data-i="49" style="--rotate: 294deg;"></i>
+            <i class="spike" data-i="50" style ="--rotate: 300deg;"></i>
+            <i class="spike" data-i="51" style="--rotate: 306deg;"></i>
+            <i class="spike" data-i="52" style="--rotate: 312deg;"></i>
+            <i class="spike" data-i="53" style="--rotate: 318deg;"></i>
+            <i class="spike" data-i="54" style="--rotate: 324deg;"></i>
+            <i class="spike" data-i="55" style="--rotate: 330deg;"></i>
+            <i class="spike" data-i="56" style="--rotate: 336deg;"></i>
+            <i class="spike" data-i="57" style="--rotate: 342deg;"></i>
+            <i class="spike" data-i="58" style="--rotate: 348deg;"></i>
+            <i class="spike" data-i="59" style="--rotate: 354deg;"></i>
+        </div>
+        <div class="minutes" style="--dRotate: 240deg;">
+            <i class="spike" data-i="0" style="--rotate: 0deg;">
+            </i><i class="spike" data-i="1" style="--rotate: 6deg;">
+            </i><i class="spike" data-i="2" style="--rotate: 12deg;">
+            </i><i class="spike" data-i="3" style="--rotate: 18deg;">
+            </i><i class="spike" data-i="4" style="--rotate: 24deg;">
+            </i><i class="spike" data-i="5" style="--rotate: 30deg;">
+            </i><i class="spike" data-i="6" style="--rotate: 36deg;">
+            </i><i class="spike" data-i="7" style="--rotate: 42deg;">
+            </i><i class="spike" data-i="8" style="--rotate: 48deg;">
+            </i><i class="spike" data-i="9" style="--rotate: 54deg;">
+            </i><i class="spike" data-i="10" style="--rotate: 60deg;">
+            </i><i class="spike" data-i="11" style="--rotate: 66deg;">
+            </i><i class="spike" data-i="12" style="--rotate: 72deg;">
+            </i><i class="spike" data-i="13" style="--rotate: 78deg;">
+            </i><i class="spike" data-i="14" style="--rotate: 84deg;">
+            </i><i class="spike" data-i="15" style="--rotate: 90deg;">
+            </i><i class="spike" data-i="16" style="--rotate: 96deg;">
+            </i><i class="spike" data-i="17" style="--rotate: 102deg;">
+            </i><i class="spike" data-i="18" style="--rotate: 108deg;">
+            </i><i class="spike" data-i="19" style="--rotate: 114deg;">
+            </i><i class="spike" data-i="20" style="--rotate: 120deg;">
+            </i><i class="spike" data-i="21" style="--rotate: 126deg;">
+            </i><i class="spike" data-i="22" style="--rotate: 132deg;">
+            </i><i class="spike" data-i="23" style="--rotate: 138deg;">
+            </i><i class="spike" data-i="24" style="--rotate: 144deg;">
+            </i><i class="spike" data-i="25" style="--rotate: 150deg;">
+            </i><i class="spike" data-i="26" style="--rotate: 156deg;">
+            </i><i class="spike" data-i="27" style="--rotate: 162deg;">
+            </i><i class="spike" data-i="28" style="--rotate: 168deg;">
+            </i><i class="spike" data-i="29" style="--rotate: 174deg;">
+            </i><i class="spike" data-i="30" style="--rotate: 180deg;">
+            </i><i class="spike" data-i="31" style="--rotate: 186deg;">
+            </i><i class="spike" data-i="32" style="--rotate: 192deg;">
+            </i><i class="spike" data-i="33" style="--rotate: 198deg;">
+            </i><i class="spike" data-i="34" style="--rotate: 204deg;">
+            </i><i class="spike" data-i="35" style="--rotate: 210deg;">
+            </i><i class="spike" data-i="36" style="--rotate: 216deg;">
+            </i><i class="spike" data-i="37" style="--rotate: 222deg;">
+            </i><i class="spike" data-i="38" style="--rotate: 228deg;">
+            </i><i class="spike" data-i="39" style="--rotate: 234deg;">
+            </i><i class="spike" data-i="40" style="--rotate: 240deg;">
+            </i><i class="spike" data-i="41" style="--rotate: 246deg;">
+            </i><i class="spike" data-i="42" style="--rotate: 252deg;">
+            </i><i class="spike" data-i="43" style="--rotate: 258deg;">
+            </i><i class="spike" data-i="44" style="--rotate: 264deg;">
+            </i><i class="spike" data-i="45" style="--rotate: 270deg;">
+            </i><i class="spike" data-i="46" style="--rotate: 276deg;">
+            </i><i class="spike" data-i="47" style="--rotate: 282deg;">
+            </i><i class="spike" data-i="48" style="--rotate: 288deg;">
+            </i><i class="spike" data-i="49" style="--rotate: 294deg;">
+            </i><i class="spike" data-i="50" style="--rotate: 300deg;">
+            </i><i class="spike" data-i="51" style="--rotate: 306deg;">
+            </i><i class="spike" data-i="52" style="--rotate: 312deg;">
+            </i><i class="spike" data-i="53" style="--rotate: 318deg;">
+            </i><i class="spike" data-i="54" style="--rotate: 324deg;">
+            </i><i class="spike" data-i="55" style="--rotate: 330deg;">
+            </i><i class="spike" data-i="56" style="--rotate: 336deg;">
+            </i><i class="spike" data-i="57" style="--rotate: 342deg;">
+            </i><i class="spike" data-i="58" style="--rotate: 348deg;">
+            </i><i class="spike" data-i="59" style="--rotate: 354deg;"></i></div>
+        <div class="minute">41</div>
+        <div class="hour">7</div>
+      </second>
+      <script src="main.js"></script>
+</body>
+</html>
